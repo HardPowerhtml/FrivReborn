@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="en">
+<title>start</title>
+<meta charset="utf-8">
+<meta content="noindex,nofollow" name="robots">
+<script src="menu/friv.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<style>
+body{background-color:#600090;color:#fff;font-family:arial,helvetica,sans-serif;font-size:1em;font-weight: bold;margin:auto;text-align:center;overflow:hidden;}
+a{display:inline-block}
+a:link{color:orange}
+a:visited{color:orangered}
+a:hover{color:yellow}
+a:active{color:white}
+#menu{width:100vw;height:100vh;}
+    #splash{margin:auto;margin-bottom:5vh;display:block;cursor:pointer;height:70vh;transition:3s;filter:hue-rotate(90deg)}
+#splash:hover{height:95vh;filter:hue-rotate(0deg)}
+#spacer{height:100vh;animation:reduceSpacer 2s 2s forwards ease-in}
+@keyframes reduceSpacer{from{height:100vh}to{height:0vh}}
+#subText{text-align:center;font-size:2vw;text-shadow:0px 0px 1vw rgba(255,255,255,.9);}
+    
+    
+#newFrivButton {
+    position: absolute;
+    z-index: 30;
+    bottom: -10vh;
+    left: 1vmin;
+    padding: 1vmin;
+    font-size: 2vmin;
+    letter-spacing: 0.2vmin;
+    cursor: pointer;
+    border-radius: 1vmin 1vmin 0 0;
+    background-color: goldenrod;
+    color: maroon;
+    transition: 0.5s;
+    animation: newFrivButtonButtonSlideIn 8s 4s ease-out forwards;
+}
+        
+@keyframes newFrivButtonButtonSlideIn {
+    0% {
+        bottom: -10vmin;
+    }
+    10%, 90% {
+        bottom: 0;
+    }
+    100% {
+        bottom: -10vmin;
+    } 
+}
+        
+#newFrivButton:hover {
+    filter:contrast(200%);
+}    
+    
+    
+</style>
+<body>
+<form action="#" name="hf" style="margin:0px"><input name="gd" type="hidden"></form>
+    
+<script>
+var mver="CILINDERS";
+var locate=window.location;document.hf.gd.value=locate;var tx=document.hf.gd.value;var it=tx.substring(tx.indexOf("=")+1,tx.length);if(location.href.toLowerCase().indexOf("school")!=-1)it="school";var bl=navigator.language?navigator.language:navigator.userLanguage;top.document.title="Friv";if(bl.substr(0,2)=="en")top.document.title="Friv : ONLY THE VERY BEST FREE ONLINE GAMES!";if(bl.substr(0,2)=="es")top.document.title="Juegos Friv";if(bl.substr(0,2)=="pt")top.document.title="Jogos Friv";if(bl.substr(0,2)=="fr")top.document.title="Jeux de Friv";if(bl.substr(0,2)=="pl")top.document.title="Gry Friv";if(bl.substr(0,2)=="tr")top.document.title="Friv Oyun";if(bl.substr(0,2)=="en"&&it=="school")top.document.title="Friv4School : A safe place to play online!";mfull="menu"+mver+".swf?browserlang="+bl+"&invtype="+it;
+if(window!=top)document.write('<object id=menu data='+mfull+'><param name=wmode value=window></object>');
+var tk="UA-3596694-11";
+if(it=="promo1"){tk="UA-3596694-4";}
+if(it=="promo2"){tk="UA-3596694-9";}
+if(it=="promo3"){tk="UA-3596694-10";}
+if(it=="promo4"){tk="UA-3596694-12";}
+if(it=="promo5"){tk="UA-3596694-13";}
+if(it=="promo6"){tk="UA-3596694-14";}
+if(it=="promo7"){tk="UA-3596694-18";}
+if(it=="promo8"){tk="UA-3596694-19";}
+if(it=="promo9"){tk="UA-3596694-20";}
+if(it=="promo10"){tk="UA-3596694-22";}
+if(it=="promo11"){tk="UA-3596694-23";}
+if(it=="promo12"){tk="UA-3596694-24";}
+if(it=="promo13"){tk="UA-3596694-25";}
+if(it=="promo14"){tk="UA-3596694-26";}
+if(it=="promo15"){tk="UA-3596694-27";}
+if(it=="promo16"){tk="UA-3596694-28";}
+if(it=="promo17"){tk="UA-3596694-29";}
+if(it=="promo18"){tk="UA-3596694-34";}
+if(it=="promo19"){tk="UA-3596694-35";}
+if(it=="promo20"){tk="UA-3596694-36";}
+if(it=="school"){tk="UA-3596694-31";}
+if(it=="chrome"){tk="UA-3596694-37";}
+if(it=="puzzle"){tk="UA-3596694-38";}
+if(it=="juegos"){tk="UA-3596694-39";}
+var pageTracker=_gat._getTracker(tk);
+</script>
+
+<div id="spacer"></div>
+<img id="splash" src="/web/20200420122533im_/http://www.frivclassic.com/assets/gfx/frivLogoBrightGreenMin.svg" alt="Friv Help &amp; Privacy" onclick="top.location='../privacy.html'"/>
+<div id="subText">- click on the logo for help &amp; privacy information -</div>
+    
+<script>
+var userAgent = navigator.userAgent;
+
+if ((/Edge/.test(userAgent) || userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1) && userAgent.indexOf("Edg/") == -1){
+   document.getElementById("newFrivButton").style.display = "none"; //Old Edge and MSIE incapable of displaying new menu
+}    
+    
+if(userAgent.indexOf('firefox') > -1){      
+subText.innerHTML="We recommend you use <a href='https://web.archive.org/web/20200420122533/https://www.google.com/chrome/' target='_blank'>Google Chrome</a>. Firefox users: You may need to install <a href='https://web.archive.org/web/20200420122533/https://get.adobe.com/flashplayer/' target='_blank'>Adobe Flash</a>.<br><a href='https://web.archive.org/web/20200420122533/http://www.friv.com/' target='_top'>New Friv</a> will work in any browser. Click on the logo for more help.";
+}
+
+</script><!--
+     FILE ARCHIVED ON 12:25:33 Apr 20, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:58:41 Jul 17, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.01
+  exclusion.robots: 0.06
+  exclusion.robots.policy: 0.033
+  esindex: 0.025
+  cdx.remote: 20.653
+  LoadShardBlock: 1695.653 (3)
+  PetaboxLoader3.datanode: 1268.871 (6)
+  PetaboxLoader3.resolve: 897.588 (3)
+  load_resource: 510.497
